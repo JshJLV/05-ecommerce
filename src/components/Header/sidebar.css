@@ -1,0 +1,13 @@
+.sidebar-active {
+    background-color: rgb(31, 41, 55);
+    position: absolute;
+    width: 15rem;
+    height: 100vh;
+    left: 0px;
+    top: 0px;
+    z-index: 5;
+}
+
+.sidebar-hidden {
+    left: -100%;
+}
