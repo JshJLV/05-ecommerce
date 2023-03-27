@@ -1,11 +1,16 @@
 import Carousel from "../components/Carousel/Carousel";
 import SliderProducts from "../components/Cards/SliderProducts";
+import Categories from "../components/Categories/Categories";
 
 function Home() {
   return (
-    <main>
+    <main className="bg-gray-200 pb-8">
       <Carousel />
-      <SliderProducts />
+      <SliderProducts categoria={"Nintendo"} />
+      <SliderProducts categoria={"Xbox"} />
+      <SliderProducts categoria={"Playstation"} />
+      <SliderProducts categoria={"Accesorios"} />
+      <Categories />
     </main>
   );
 }
