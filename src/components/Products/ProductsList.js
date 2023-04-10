@@ -7,7 +7,7 @@ function ProductsList() {
       <div>Banner de la marca</div>
       <div className="md:w-11/12 flex flex-wrap justify-around m-auto">
         {products.map((item, index) => {
-          return <CardLarge item={item} index={index} />;
+          return <CardLarge item={item} key={index} />;
         })}
       </div>
     </div>

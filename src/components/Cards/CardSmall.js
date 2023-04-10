@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
 function CardSmall(props) {
-  const { item, index } = props;
+  const { item } = props;
 
   return (
     <div
@@ -14,7 +14,6 @@ function CardSmall(props) {
       bg-gray-50 
       rounded-lg
       "
-      key={index}
     >
       <Link to={item.link}>
         <div className="p-4">

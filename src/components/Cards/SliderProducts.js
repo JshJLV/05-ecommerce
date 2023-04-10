@@ -1,6 +1,8 @@
+import { useEffect, useState } from "react";
 import Slider from "react-slick";
 import CardSmall from "./CardSmall";
 import { products } from "../../data/products";
+import { request } from "../../api/request";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
@@ -58,7 +60,7 @@ function SliderProducts(props) {
       </div>
       <Slider {...settings} className="p-4">
         {products.map((item, index) => {
-          return <CardSmall item={item} index={index} />;
+          return <CardSmall item={item} key={index} />;
         })}
       </Slider>
     </div>

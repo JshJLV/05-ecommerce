@@ -1,5 +1,5 @@
 function CardLarge(props) {
-  const { item, index } = props;
+  const { item } = props;
   return (
     <div
       className="
@@ -12,7 +12,6 @@ function CardLarge(props) {
       md:flex-col
       md:justify-center
       "
-      key={index}
     >
       <div className="w-32 items md:w-40 p-2 md:m-auto">
         <img src={item.img} alt={item.title} />

@@ -47,7 +47,7 @@ function Categories() {
         <IconContext.Provider
           value={{
             color: "#1f618d",
-            size: "5rem",
+            size: "80px",
             className: "m-auto p-2",
           }}
         >

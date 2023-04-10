@@ -2,6 +2,7 @@ import { useState } from "react";
 import { IconContext } from "react-icons";
 import { MdMenu, MdOutlineShoppingCart } from "react-icons/md";
 import SideBar from "./SideBar";
+import SearchBar from "./SearchBar";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -17,13 +18,7 @@ const Navbar = () => {
           <MdMenu className="w-9 h-9" onClick={showSidebar} />
         </button>
         <SideBar state={isOpen} propFunction={showSidebar} />
-        <div>
-          <input
-            className="px-4 py-3 rounded-md w-"
-            type="text"
-            placeholder="Buscar producto"
-          />
-        </div>
+        <SearchBar />
         <button>
           <MdOutlineShoppingCart className="h-9 w-9" />
         </button>
