@@ -1,12 +1,5 @@
-import {
-  FaHome,
-  FaUserCircle,
-  FaXbox,
-  FaPlaystation,
-  FaHeadphones,
-} from "react-icons/fa";
+import { FaHome, FaUserCircle, FaXbox, FaPlaystation } from "react-icons/fa";
 import { SiNintendoswitch } from "react-icons/si";
-import { MdCatchingPokemon } from "react-icons/md";
 
 export const SideBarData = [
   {
@@ -37,18 +30,6 @@ export const SideBarData = [
     title: "Nintendo",
     path: "products/nintendo",
     icon: <SiNintendoswitch />,
-    classN: "",
-  },
-  {
-    title: "Accesorios",
-    path: "products/accesorios",
-    icon: <FaHeadphones />,
-    classN: "",
-  },
-  {
-    title: "Coleccionables",
-    path: "products/coleccionables",
-    icon: <MdCatchingPokemon />,
     classN: "",
   },
 ];

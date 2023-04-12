@@ -2,16 +2,22 @@ import ImageGallery from "react-image-gallery";
 
 const images = [
   {
-    original: "https://picsum.photos/id/1018/1000/600/",
-    thumbnail: "https://picsum.photos/id/1018/250/150/",
+    original:
+      "https://cdn.gameplanet.com/wp-content/uploads/2023/03/15183134/LoZ_TotK_slide_mvk_v3-2048x700.jpg",
+    thumbnail:
+      "https://cdn.gameplanet.com/wp-content/uploads/2023/03/15183134/LoZ_TotK_slide_mvk_v3-2048x700.jpg",
   },
   {
-    original: "https://picsum.photos/id/1015/1000/600/",
-    thumbnail: "https://picsum.photos/id/1015/250/150/",
+    original:
+      "https://cdn.gameplanet.com/wp-content/uploads/2023/03/15194920/starwarsjedi-suv_preventa_mvk-2048x700.jpg",
+    thumbnail:
+      "https://cdn.gameplanet.com/wp-content/uploads/2023/03/15194920/starwarsjedi-suv_preventa_mvk-2048x700.jpg",
   },
   {
-    original: "https://picsum.photos/id/1019/1000/600/",
-    thumbnail: "https://picsum.photos/id/1019/250/150/",
+    original:
+      "https://cdn.gameplanet.com/wp-content/uploads/2023/03/23195523/Resident4_Disponible_slide_mvk_v2-2048x700.jpg",
+    thumbnail:
+      "https://cdn.gameplanet.com/wp-content/uploads/2023/03/23195523/Resident4_Disponible_slide_mvk_v2-2048x700.jpg",
   },
 ];
 

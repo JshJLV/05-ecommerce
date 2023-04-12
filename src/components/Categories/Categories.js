@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
-import { FaXbox, FaPlaystation, FaHeadphones, FaBoxOpen } from "react-icons/fa";
+import { FaXbox, FaPlaystation, FaBoxOpen } from "react-icons/fa";
 import { SiNintendoswitch } from "react-icons/si";
-import { MdCatchingPokemon } from "react-icons/md";
 import { IconContext } from "react-icons";
 
 function Categories() {
@@ -20,16 +19,6 @@ function Categories() {
       category: "Nintendo",
       imgCategory: <SiNintendoswitch />,
       path: "/products/nintendo",
-    },
-    {
-      category: "Accesorios",
-      imgCategory: <FaHeadphones />,
-      path: "/products/Accesorios",
-    },
-    {
-      category: "Coleccionables",
-      imgCategory: <MdCatchingPokemon />,
-      path: "/products/coleccionables",
     },
     {
       category: "Todos los productos",

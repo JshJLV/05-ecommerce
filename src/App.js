@@ -7,6 +7,7 @@ import Nintendo from "./pages/Nintendo";
 import Playstation from "./pages/Playstation";
 import Accesorios from "./pages/Accesorios";
 import Coleccionables from "./pages/Coleccionables";
+import ProductView from "./pages/ProductView";
 // import Login from "./pages/Login";
 
 const App = () => {
@@ -22,6 +23,7 @@ const App = () => {
           <Route path=":category" element={<Accesorios />} />
           <Route path=":category" element={<Coleccionables />} />
         </Route>
+        <Route path="/product-view" element={<ProductView />}></Route>
       </Route>
     </Routes>
   );

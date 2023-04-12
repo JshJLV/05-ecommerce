@@ -21,7 +21,7 @@ function CardSmall(props) {
         </div>
         <div className="mt-2 p-2 border-t-2 border-t-gray-500-500">
           <p className="text-lg xl:text-base">{item.title}</p>
-          <p className="text-base">{item.price}</p>
+          <p className="text-base">${item.price}</p>
           <p className="text-base xl:text-sm">{item.brand}</p>
         </div>
       </Link>
